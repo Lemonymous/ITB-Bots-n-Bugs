@@ -1,0 +1,7 @@
+Known issues:
+
+Deploying Gana on a Swarmer causes swarmer to fly with a deployment arrow below it.
+Fully upgraded Techno-Wyrm can sometimes hit buildings on the last hit. Building tile is also available in GetTargetArea.
+
+Add tooltips for mod options.
+Core/Elite/Psion is not self-descriptive.

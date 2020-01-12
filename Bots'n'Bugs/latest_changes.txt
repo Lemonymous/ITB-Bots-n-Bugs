@@ -1,0 +1,5 @@
+weaponHover.lua
+line 144 was incorrectly named 'old' -> updated to 'oldGetTipDamage'
+edited comments in
+- astar.lua
+- weaponArmed.lua
