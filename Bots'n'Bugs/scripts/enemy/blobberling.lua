@@ -252,7 +252,8 @@ function this:load()
 				queuedAttack			and
 				not pawn:IsBusy()		and
 				not isWeaponArmed		and
-				Game:GetTeamTurn() == 1
+				Game:GetTeamTurn() == 1 and
+				loc == queuedAttack.piOrigin
 			then
 				local alpha = .25
 				
