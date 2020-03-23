@@ -100,7 +100,7 @@ function Mission.GetSpawnCount(...)
 	-- unhide pawns.
 	for i = 1, math.ceil(#pawns / 2) do
 		local swarmer = pawns[i]
-		Board:AddPawn(swarmer.pawn, swarmer.loc)
+		Board:AddPawn(swarmer.pawn)
 		swarmer.pawn:SetSpace(swarmer.loc)
 	end
 	
